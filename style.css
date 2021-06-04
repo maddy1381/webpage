@@ -1,0 +1,110 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     font-size: 15px;
+}
+
+.main{
+     background: hsl(233, 47%, 7%);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.card{
+     background: hsl(244, 38%, 16%);
+     height: 450px;
+     max-width: 1150px;
+     padding: 190px 0 0px 0px;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     border-radius: 5px;
+     
+
+}
+
+/* .card img{
+     
+     background-color: hsl(277, 64%, 61%);
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     flex-direction: row;
+     transform: translateY(-11.8rem); 
+     z-index: auto;
+     margin-left: 0.8px;
+     
+
+} */
+h1{
+     color: hsl(0, 0%, 100%);
+}
+.insights{
+     color: hsl(277, 64%, 61%);
+}
+
+.left{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     transform: translateY(-15rem); 
+     padding: 90px;    
+}
+.right{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     transform: translateY(-13.9rem); 
+
+}
+
+.image{
+     transform: translateX(15px);
+     
+
+}
+
+.info{
+     padding-top: 30px;
+     color: hsla(0, 0%, 100%, 0.75);
+}
+
+.start{
+     color: hsla(0, 0%, 100%, 0.6);
+     padding-right: 100px;
+
+}
+.k{
+     color: hsl(0, 0%, 100%);
+     font-size: 20px;
+     font-weight: 499;
+}
+
+.mid{
+     color: hsla(0, 0%, 100%, 0.6);
+     padding-right: 100px;
+}
+
+
+.end{
+     color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+
+.below{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 50px;
+
+     font-weight: 400;
+     
+}
